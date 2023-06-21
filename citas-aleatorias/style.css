@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+}
+
+.contenido-centrado {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor {
+  width: 80vw;
+  max-width: 600px;
+  min-height: 500px;
+  padding: 20px;
+  background-color: darkgreen;
+  border: 5px solid white;
+  border-radius: 30px;
+}
+
+.contenedor-interno {
+  width: 80%;
+}
+
+#titulo {
+  width: 100%;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: darksalmon;
+}
+
+#cita {
+  font-size: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  color: gold;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+#autor {
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#boton-cambiar-cita {
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
